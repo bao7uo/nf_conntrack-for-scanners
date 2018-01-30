@@ -24,7 +24,7 @@ The nf_conntrack-for-scanners tool is designed to help resolve the problem, allo
 ## Usage
 
 - Check the following documentation
-- - https://www.kernel.org/doc/Documentation/networking/nf_conntrack-sysctl.txt
+  - https://www.kernel.org/doc/Documentation/networking/nf_conntrack-sysctl.txt
 - Tweak the config parameters in the script to suit your situation (or accept defaults and any risk that might come with them)
 - Run the script
 
