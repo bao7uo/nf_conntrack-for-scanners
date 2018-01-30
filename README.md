@@ -21,6 +21,10 @@ In that case your netfilter connection tracking (https://people.netfilter.org/pa
 
 The nf_conntrack-for-scanners tool is designed to help resolve the problem, allowing you to scan and NAT at the same time :-)
 
+## Roadmap
+
+- [ ] Add the ability to save/load previous settings as a backup
+
 ## Feedback
 Suggestions and contributions are welcome, particularly in regard to the best values for the different settings.
 
