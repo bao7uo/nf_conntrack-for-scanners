@@ -22,12 +22,13 @@ In that case your netfilter connection tracking (https://people.netfilter.org/pa
 The nf_conntrack-for-scanners tool is designed to help resolve the problem, allowing you to scan and NAT at the same time :-)
 
 ## Usage
-
+#### Pre-amble
 - Check the following documentation
   - https://www.kernel.org/doc/Documentation/networking/nf_conntrack-sysctl.txt
 - Tweak the config parameters in the script to suit your situation (or accept defaults and any risk that might come with them)
 - If you feel it is necessary, save a record of your previous configuration with
   - `sysctl -a | grep net.netfilter.nf_conntrack | tee nf_conntrack_old_config`
+#### TL;DR: 
 - Run the script
 
 
