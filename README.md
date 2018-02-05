@@ -19,7 +19,7 @@ nf_conntrack: nf_conntrack: table full, dropping packet
 
 In that case your netfilter connection tracking (https://people.netfilter.org/pablo/docs/login.pdf) tables (http://conntrack-tools.netfilter.org/conntrack.html#lbAE) have become full. In which case you can either disable NAT and not use connection tracking, or you can alter the settings to resolve the problem.
 
-The nf_conntrack-for-scanners tool is designed to help resolve the problem, allowing you to scan and NAT at the same time :-)
+The nf_conntrack-for-scanners tool is designed to help resolve the problem, allowing you to scan and NAT at the same time :-) Running ths script should instantly solve the problem, and it saves the settings so that it doesn't need to be re-run.
 
 ## Usage
 #### Pre-amble
